@@ -1,0 +1,17 @@
+# --- Site settings: edit these ---
+title: "Linda Anticoli"
+description: "My blog and projects"
+
+# Leave baseurl empty IF your repository is named  username.github.io
+# If you instead name the repo something else (e.g. "mysite"),
+# uncomment the next line and set it to "/your-repo-name"
+# baseurl: "/mysite"
+baseurl: ""
+
+# --- Don't worry about anything below here ---
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+markdown: kramdown

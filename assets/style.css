@@ -1,0 +1,111 @@
+/* ---- Base ---- */
+:root {
+  --accent: #2a5db0;
+  --ink: #1a1a1a;
+  --muted: #666;
+  --line: #e3e3e3;
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- Header / nav ---- */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.site-title { font-size: 1.3rem; font-weight: 700; color: var(--ink); }
+.site-nav a { margin-left: 1.25rem; color: var(--muted); }
+.site-nav a:first-child { margin-left: 0; }
+
+/* ---- Main ---- */
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+h1 { line-height: 1.2; }
+
+.intro-links a { display: inline-block; margin-right: 1.5rem; }
+
+/* ---- Blog list ---- */
+.post-list { list-style: none; padding: 0; }
+.post-list li {
+  display: flex;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-date { color: var(--muted); min-width: 6.5rem; }
+.post-meta { color: var(--muted); margin-top: -0.5rem; }
+.back-link { margin-top: 2.5rem; }
+
+/* ---- Project grid of clickable squares ---- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.project-card {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fafafa;
+  color: var(--ink);
+  text-align: left;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+.project-card:hover {
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-color: var(--accent);
+}
+.project-card-title { font-weight: 700; font-size: 1.1rem; }
+.project-card-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 0.4rem; }
+
+/* ---- Button ---- */
+.button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.button:hover { text-decoration: none; opacity: 0.92; }
+
+/* ---- Footer ---- */
+.site-footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}

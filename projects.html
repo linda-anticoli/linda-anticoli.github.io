@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<h1>Projects</h1>
+<p>Click a project to learn more.</p>
+
+<div class="project-grid">
+  {% for project in site.projects %}
+  <a class="project-card" href="{{ project.url | relative_url }}">
+    <span class="project-card-title">{{ project.title }}</span>
+    {% if project.tagline %}<span class="project-card-tagline">{{ project.tagline }}</span>{% endif %}
+  </a>
+  {% endfor %}
+</div>
