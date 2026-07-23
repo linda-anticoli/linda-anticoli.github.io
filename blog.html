@@ -12,7 +12,7 @@ permalink: /blog/
   {% for post in site.posts %}
   <a class="post-card" href="{{ post.url | relative_url }}">
     <span class="post-card-top">
-      <span class="post-card-index">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+      {% if post.section %}<span class="post-card-section">/{{ post.section }}</span>{% endif %}
       {% if post.lang == "it" %}<span class="post-card-lang" title="In italiano" aria-label="In italiano">IT</span>{% endif %}
     </span>
     <span class="post-card-title">{{ post.title }}</span>

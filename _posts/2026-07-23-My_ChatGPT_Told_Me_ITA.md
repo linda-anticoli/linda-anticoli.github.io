@@ -3,6 +3,7 @@ layout: post
 title: "Me l’ha detto il mio ChatGPT"
 date: 2026-07-23
 lang: it
+section: Essay
 ---
 
 
