@@ -8,12 +8,13 @@ permalink: /blog/
 {% if site.posts.size == 0 %}
 <p>No posts yet — check back soon.</p>
 {% else %}
-<ul class="post-list">
+<div class="post-grid">
   {% for post in site.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    {% if post.lang == "it" %}<span class="flag-it" title="In italiano" aria-label="In italiano"></span>{% endif %}
+    <span class="post-card-title">{{ post.title }}</span>
+    <span class="post-card-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </a>
   {% endfor %}
-</ul>
+</div>
 {% endif %}
