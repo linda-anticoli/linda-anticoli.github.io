@@ -4,8 +4,6 @@ title: "Me l’ha detto il mio ChatGPT"
 date: 2026-07-23
 ---
 
-# Me l’ha detto il mio ChatGPT
-
 
 **Gente molesta e mobili immutabili**
 

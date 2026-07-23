@@ -3,8 +3,6 @@ layout: post
 title: "My ChatGPT told me"
 date: 2026-07-23
 ---
-# My ChatGPT told me
-
 
 **Annoying people and immutable mobiles**
 
