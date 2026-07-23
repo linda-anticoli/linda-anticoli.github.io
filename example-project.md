@@ -6,8 +6,7 @@ link: "https://example.com"
 link_text: "Learn more &rarr;"
 ---
 
-This is a second example so you can see how the grid of squares looks with more
-than one project.
+This is a second example so the other project doesn't feel alone.
 
 To add your own project: copy this file, give it a new name (for example
 `_projects/dark-patterns.md`), and edit the title, tagline, link, and text.
