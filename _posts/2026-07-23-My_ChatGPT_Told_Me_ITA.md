@@ -48,7 +48,7 @@ Quando consultate l’oracolo per conto vostro, potete fargli domande migliori. 
 E se proprio vi serve un “me l’ha detto ChatGPT”, siate onesti e aggiungete il possessivo: “me l’ha detto il mio ChatGPT”.
 
 
-Linda Anticoli, 22/07/2026
+L.A.
 
 **Riferimenti e note**
 

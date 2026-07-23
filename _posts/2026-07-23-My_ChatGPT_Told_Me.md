@@ -48,7 +48,7 @@ When you consult the oracle for yourself, you can ask it better questions. Inste
 And if you really need to use “ChatGPT told me”, just be honest and add the possessive, “My ChatGPT told me”. 
 
 
-Linda Anticoli, 22/07/2026
+L.A.
 
 **Pointers and notes**
 
